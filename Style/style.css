@@ -1,0 +1,8 @@
+:root{
+--color_pri--:rgb(168,51,56);
+--color_sec--:#f1f1f1;
+}
+
+.colorPrincipal{
+background-color: var(--color_pri--);
+}
