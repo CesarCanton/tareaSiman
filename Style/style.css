@@ -3,6 +3,11 @@
   --color_sec--: #f1f1f1;
 }
 
+.barNav a:hover{
+color: rgba(255, 255, 255, 0.267);
+
+}
+
 
 .colorPrincipal {
   background-color: var(--color_pri--);
@@ -39,12 +44,20 @@
 
 .side-bar {
   padding-left: 0;
-  border-left: 1px solid #eee;
+  
   padding-left: 1rem;
 }
 
+.side-bar ul{
+    list-style:none ;
+}
 .side-bar a {
+    border-left: 1px solid #eee;
   display: block;
   padding: 0.125rem 1.5rem;
   color: #99979c;
+  text-decoration: none;
+}
+.side-bar a:hover{
+    color: var(--color_pri--);
 }
