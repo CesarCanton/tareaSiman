@@ -1,26 +1,79 @@
 :root {
   --color_pri--: rgb(168, 51, 56);
   --color_sec--: #f1f1f1;
+  --color_pri_degra--:rgba(168, 51, 57, 0.364);
 }
 
-.barNav a:hover{
-color: rgba(255, 255, 255, 0.267);
-
+.barNav a:hover {
+  color: rgba(255, 255, 255, 0.267);
 }
-
 
 .colorPrincipal {
   background-color: var(--color_pri--);
 }
 
 .descripcionCont {
+  background-image: url("../img/imgDesc.jpg");
+  background-size: cover;
+  height: 100vh;
+  border-radius: 5%;
 }
 
+.desText {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.secPromInicio{
+  background-image: url("../img/imgProm.jpg");
+  background-size: 20rem;
+  border-radius: 30px;
+  height:20rem;
+  
+}
+.secPromInicio h1{
+color: var(--color_pri--);
+
+}
+.degraProm{
+  background-color: var(--color_pri_degra--);
+  height: auto;
+  width: auto;
+  border-radius: 30px;
+}
+.contorno{
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+}
 .secProm {
   justify-content: space-around;
+
 }
+.secProm h5{
+  color: var(--color_pri--);
+  
+  }
+
+.cardbor{
+border-color: 1px solid var(--color_pri--);
+}
+
+.backCard{
+background-color: rgba(165, 42, 42, 0.100);
+border-radius: 15px;
+text-align: center;
+}
+
+
+
+
 .CTA {
   background-color: var(--color_pri--);
+  width:  auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
 }
 
 @media (min-width: 768px) {
@@ -33,31 +86,31 @@ color: rgba(255, 255, 255, 0.267);
   @supports (position: sticky) {
     position: sticky;
     top: 4rem;
-    
+
     overflow-y: auto;
   }
-  
+
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
 }
 
 .side-bar {
   padding-left: 0;
-  
+
   padding-left: 1rem;
 }
 
-.side-bar ul{
-    list-style:none ;
+.side-bar ul {
+  list-style: none;
 }
 .side-bar a {
-    border-left: 1px solid #eee;
+  border-left:1px solid var(--color_pri--);
   display: block;
   padding: 0.125rem 1.5rem;
   color: #99979c;
   text-decoration: none;
 }
-.side-bar a:hover{
-    color: var(--color_pri--);
+.side-bar a:hover {
+  color: var(--color_pri--);
 }

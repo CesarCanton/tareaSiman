@@ -11,7 +11,10 @@
     <link rel="icon" href="img/iconoSiman.png">
 </head>
 
+<!--Inicio del body-->
+
 <body class="d-flex flex-column">
+    <!--Barra de navegacion-->
     <header>
         <nav class="navbar colorPrincipal text-white">
 
@@ -25,9 +28,9 @@
         </nav>
 
     </header>
-
+    <!--Sidebar-->
     <section class="bd-toc bd-toc-collapse side-bar align-self-end" id="TablaContenido">
-        <nav >
+        <nav>
             <ul class="side-bar">
                 <li>
                     <a href="#Descripcion" class="active">Descripcion</a>
@@ -44,45 +47,56 @@
     </section>
 
     <main class="container">
-       
+
 
 
 
         <!--Seccion de descripcion-->
-        <section class="descripcionCont d-flex" id="Descripcion">
-            <section class="imgDescripcion "> <img src="img/imgDesc.jpg" alt="Imagen descripcion" class="img-fluid">
-            </section>
-            <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sequi sit! Nesciunt,
-                    necessitatibus? Dolorum ut voluptatem natus alias ab aliquam omnis nisi accusamus quae soluta.</p>
+        <section class="descripcionCont d-flex align-items-center " id="Descripcion">
+
+            <section
+                class=" text-white desText text-center d-flex flex-column justify-content-center align-items-center  ">
+
+                <h1 class="fs-1 fw-semibold text-wrap badge colorPrincipal m-5">SIMAN</h1>
+
+
+                <p class="fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sequi sit!
+                    Nesciunt,
+                    necessitatibus? Dolorum ut voluptatem natus alias ab aliquam omnis nisi accusamus quae soluta.
+                </p>
+
             </section>
         </section>
 
+
         <!--Seccion de promociones-->
-        <section class="container " id="Promociones">
-            <section class="d-flex"><img src="img/imgProm.png" alt="" class="img-fluid">
-                <section>
-                    <p>En SIMAN tambien tenemos grandes promociones</p>
+        <section class="container d-flex flex-column">
+            <section class="secPromInicio d-flex justify-content-center mb-5 mt-5 p-5" id="Promociones">
+                <section class="text-end d-flex flex-column justify-content-center degraProm p-5 ">
+                    <h1 class="fs-1 text-white fw-bold contorno">En SIMAN tambien tenemos grandes promociones</h1>
                 </section>
             </section>
 
-            <section class="secProm d-flex ">
-                <section class="card p-3" style="width: 18rem;">
+            <!--Cards para mostrar las distintas promociones-->
+            <section class="secProm d-flex mb-5 ">
+                <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
                     <img src="img/Electrodomesticos.jpg" alt="">
                     <section class="card-body">
                         <h5 class="card-title">Electrodomesticos</h5>
-                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam
+                        <p class="card-text backCard p-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quasi laboriosam
                             eos officia vel similique. Quasi rem est qui, excepturi sit cum magnam deleniti similique
                             perferendis?</p>
                     </section>
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 18rem;">
+                    <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
                         <img src="img/Muebles.png" alt="">
-                        <section class="card-body">
+                        <section class="card-body ">
                             <h5 class="card-title">Muebles</h5>
-                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                            <p class="card-text backCard p-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quasi
                                 laboriosam
                                 eos officia vel similique. Quasi rem est qui, excepturi sit cum magnam deleniti
                                 similique
@@ -92,11 +106,12 @@
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 18rem;">
+                    <section class="card p-3" style="width: 19rem; border-color: var(--color_pri--);">
                         <img src="img/Ropa.jpg" alt="">
                         <section class="card-body">
                             <h5 class="card-title">Ropa</h5>
-                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                            <p class="card-text backCard p-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quasi
                                 laboriosam
                                 eos officia vel similique. Quasi rem est qui, excepturi sit cum magnam deleniti
                                 similique
@@ -106,30 +121,61 @@
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 18rem;">
+                    <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
                         <img src="img/Maquillaje.png" alt="">
                         <section class="card-body">
                             <h5 class="card-title">Maquillaje</h5>
-                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam
-                                eos officia vel similique. Quasi rem est qui, excepturi sit cum magnam deleniti similique
+                            <p class="card-text backCard p-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quasi
+                                laboriosam
+                                eos officia vel similique. Quasi rem est qui, excepturi sit cum magnam deleniti
+                                similique
                                 perferendis?</p>
                         </section>
                     </section>
                 </section>
             </section>
+        </section>
 
-
-                <!--Seccion de llamado a la accion-->
-                <section class="p-5 CTA text-white">
-                    <section class=""><h1>¡NO TE PIERDAS DE NUESTRAS OFERTAS DE VERANO Y SIGUENOS EN NUESTRAS REDES SOCIALES! </h1>
-
-
-
-
+        <!--Seccion de llamado a la accion-->
+        <section class="container p-5 CTA text-white">
+            <section class="d-flex flex-column align-items-center">
+                <h1 class="text-center opacity-75">¡NO TE PIERDAS DE NUESTRAS OFERTAS DE VERANO Y SIGUENOS EN NUESTRAS
+                    REDES SOCIALES! </h1>
+                <section class="flex-column justify-content-center mt-5">
+                    <section class="card border-success mb-3" style="max-width: 18rem;">
+                        <section class="card-body text-success">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </section>
+                        <div class="card-footer bg-transparent border-success">Footer</div>
                     </section>
 
+                    <section class="card border-success mb-3" style="max-width: 18rem;">
+                        <section class="card-body text-success">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </section>
+                        <div class="card-footer bg-transparent border-success">Footer</div>
+                    </section>
 
+                    <section class="card border-success mb-3" style="max-width: 18rem;">
+                        <section class="card-body text-success">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                        </section>
+                        <div class="card-footer bg-transparent border-success">Footer</div>
+                    </section>
                 </section>
+
+
+            </section>
+
+
+        </section>
 
 
 
