@@ -1,8 +1,50 @@
-:root{
---color_pri--:rgb(168,51,56);
---color_sec--:#f1f1f1;
+:root {
+  --color_pri--: rgb(168, 51, 56);
+  --color_sec--: #f1f1f1;
 }
 
-.colorPrincipal{
-background-color: var(--color_pri--);
+
+.colorPrincipal {
+  background-color: var(--color_pri--);
+}
+
+.descripcionCont {
+}
+
+.secProm {
+  justify-content: space-around;
+}
+.CTA {
+  background-color: var(--color_pri--);
+}
+
+@media (min-width: 768px) {
+  .bd-toc-collapse {
+    display: block !important;
+  }
+}
+
+.bd-toc {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 4rem;
+    
+    overflow-y: auto;
+  }
+  
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.side-bar {
+  padding-left: 0;
+  border-left: 1px solid #eee;
+  padding-left: 1rem;
+}
+
+.side-bar a {
+  display: block;
+  padding: 0.125rem 1.5rem;
+  color: #99979c;
 }
