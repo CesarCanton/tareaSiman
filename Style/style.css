@@ -69,11 +69,13 @@ text-align: center;
 
 
 .CTA {
-  background-color: var(--color_pri--);
-  width:  auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width:  100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-
+  height: 100%;
+  border-color: 1px var(--color_pri--);
 }
 
 @media (min-width: 768px) {
@@ -86,13 +88,12 @@ text-align: center;
   @supports (position: sticky) {
     position: sticky;
     top: 4rem;
-
     overflow-y: auto;
   }
 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .side-bar {
