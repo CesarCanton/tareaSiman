@@ -1,17 +1,14 @@
+/* Paleta de colores*/
 :root {
   --color_pri--: rgb(168, 51, 56);
   --color_sec--: #f1f1f1;
   --color_pri_degra--: rgba(168, 51, 57, 0.364);
 }
 
-.barNav a:hover {
-  color: rgba(255, 255, 255, 0.267);
-}
-
 .colorPrincipal {
   background-color: var(--color_pri--);
 }
-
+/*Estilos de la seccion de descripcion*/
 .descripcionCont {
   background-image: url("../img/imgDesc.jpg");
   background-size: cover;
@@ -25,7 +22,7 @@
   width: 100%;
   border-radius: 5%;
 }
-
+/*Estilos de la seccion de promocion*/
 .secPromInicio {
   background-image: url("../img/imgProm.jpg");
   background-size: 20rem;
@@ -60,7 +57,7 @@
   border-radius: 15px;
   text-align: center;
 }
-
+/*Estilos de la seccion CTA*/
 .CTA {
   margin-bottom: 10rem;
   width: 100%;
@@ -70,8 +67,9 @@
   border-color: 1px var(--color_pri--);
 }
 
+/*Estilos del sidebar*/
 @media (max-width: 1700px) {
-  .bd-toc-collapse {
+  .side-bar-none {
     display: none !important;
   }
 }
@@ -90,7 +88,6 @@
 
 .side-bar {
   padding-left: 0;
-
   padding-left: 1rem;
 }
 
