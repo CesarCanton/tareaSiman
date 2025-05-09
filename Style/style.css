@@ -1,7 +1,7 @@
 :root {
   --color_pri--: rgb(168, 51, 56);
   --color_sec--: #f1f1f1;
-  --color_pri_degra--:rgba(168, 51, 57, 0.364);
+  --color_pri_degra--: rgba(168, 51, 57, 0.364);
 }
 
 .barNav a:hover {
@@ -26,61 +26,53 @@
   border-radius: 5%;
 }
 
-.secPromInicio{
+.secPromInicio {
   background-image: url("../img/imgProm.jpg");
   background-size: 20rem;
   border-radius: 30px;
-  height:20rem;
-  
+  height: 20rem;
 }
-.secPromInicio h1{
-color: var(--color_pri--);
-
+.secPromInicio h1 {
+  color: var(--color_pri--);
 }
-.degraProm{
+.degraProm {
   background-color: var(--color_pri_degra--);
   height: auto;
   width: auto;
   border-radius: 30px;
 }
-.contorno{
+.contorno {
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
 }
 .secProm {
   justify-content: space-around;
-
 }
-.secProm h5{
+.secProm h5 {
   color: var(--color_pri--);
-  
-  }
-
-.cardbor{
-border-color: 1px solid var(--color_pri--);
 }
 
-.backCard{
-background-color: rgba(165, 42, 42, 0.100);
-border-radius: 15px;
-text-align: center;
+.cardbor {
+  border-color: 1px solid var(--color_pri--);
 }
 
-
-
+.backCard {
+  background-color: rgba(165, 42, 42, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
 
 .CTA {
-  margin-top: 10rem;
   margin-bottom: 10rem;
-  width:  100%;
+  width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   height: 100%;
   border-color: 1px var(--color_pri--);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1700px) {
   .bd-toc-collapse {
-    display: block !important;
+    display: none !important;
   }
 }
 
@@ -106,7 +98,7 @@ text-align: center;
   list-style: none;
 }
 .side-bar a {
-  border-left:1px solid var(--color_pri--);
+  border-left: 1px solid var(--color_pri--);
   display: block;
   padding: 0.125rem 1.5rem;
   color: #99979c;

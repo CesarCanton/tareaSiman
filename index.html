@@ -13,7 +13,7 @@
 
 <!--Inicio del body-->
 
-<body class="d-flex flex-column">
+<body class="d-flex flex-column border-radius"  style="background-color: var(--color_sec--);">
     <!--Barra de navegacion-->
     <header>
         <nav class="navbar colorPrincipal text-white">
@@ -46,11 +46,7 @@
         </nav>
     </section>
 
-    <main class="container">
-
-
-
-
+    <main class="container bg-white p-5" style=" border-top-left-radius: 30px; border-top-right-radius: 30px;">
         <!--Seccion de descripcion-->
         <section class="descripcionCont d-flex align-items-center " id="Descripcion">
 
@@ -70,7 +66,7 @@
 
 
         <!--Seccion de promociones-->
-        <section class="container d-flex flex-column">
+        <section class="container d-md-flex flex-column">
             <section class="secPromInicio d-flex justify-content-center mb-5 mt-5 p-5" id="Promociones">
                 <section class="text-end d-flex flex-column justify-content-center degraProm p-5 ">
                     <h1 class="fs-1 text-white fw-bold contorno">En SIMAN tambien tenemos grandes promociones</h1>
@@ -78,9 +74,9 @@
             </section>
 
             <!--Cards para mostrar las distintas promociones-->
-            <section class="secProm d-flex mb-5 ">
+            <section class="secProm d-flex flex-wrap ">
 
-                <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
+                <section class="card p-3" style="max-width: 17rem;border-color: var(--color_pri--);">
                     <img src="img/Electrodomesticos.jpg" alt="">
                     <section class="card-body">
                         <h5 class="card-title">Electrodomesticos</h5>
@@ -92,7 +88,7 @@
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
+                    <section class="card p-3" style="width: 17rem;border-color: var(--color_pri--);">
                         <img src="img/Muebles.png" alt="">
                         <section class="card-body ">
                             <h5 class="card-title">Muebles</h5>
@@ -107,7 +103,7 @@
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 19rem; border-color: var(--color_pri--);">
+                    <section class="card p-3" style="width: 17rem; border-color: var(--color_pri--);">
                         <img src="img/Ropa.jpg" alt="">
                         <section class="card-body">
                             <h5 class="card-title">Ropa</h5>
@@ -122,7 +118,7 @@
                 </section>
 
                 <section>
-                    <section class="card p-3" style="width: 19rem;border-color: var(--color_pri--);">
+                    <section class="card p-3" style="width: 17rem;border-color: var(--color_pri--);">
                         <img src="img/Maquillaje.png" alt="">
                         <section class="card-body">
                             <h5 class="card-title">Maquillaje</h5>
@@ -139,7 +135,7 @@
         </section>
 
         <!--Seccion de llamado a la accion-->
-        <section class="container p-5 CTA d-flex justify-content-center align-items-center" id="CTA">
+        <section class="container p-5 CTA d-flex justify-content-center align-items-center flex-wrap" id="CTA">
             <section class="d-flex flex-column align-items-center pt-5 mt-5">
                 <h1 class="text-center" style="color:var(--color_pri--)">¡NO TE PIERDAS DE NUESTRAS OFERTAS DE VERANO Y SIGUENOS EN NUESTRAS
                     REDES SOCIALES! </h1>
@@ -147,7 +143,7 @@
 
                 <section class=" mt-5 row">
 
-                    <section class="card col-sm-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
+                    <section class="card col-lg-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
                         <section class="card-body">
                             <h2 class="card-title text-white fs-3 text-center">Facebook</h2>
                             <section class="card-text">
@@ -159,7 +155,7 @@
                         
                     </section>
 
-                    <section class="card col-sm-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
+                    <section class="card col-lg-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
                         <section class="card-body">
                             <h2 class="card-title text-white fs-3 text-center">Instagram</h2>
                             <section class="card-text">
@@ -171,7 +167,7 @@
                         
                     </section>
 
-                    <section class="card col-sm-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
+                    <section class="card col-lg-3 m-5 text-dark" style="max-width: 18rem; background-color: var(--color_pri--);">
                         <section class="card-body">
                             <h2 class="card-title text-white fs-3 text-center">X</h2>
                             <section class="card-text">
@@ -195,6 +191,12 @@
 
 
     </main>
+
+    <footer >
+        <nav class="navbar colorPrincipal p-5">
+
+        </nav>
+    </footer>
 
 
 
